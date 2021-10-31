@@ -1,0 +1,9 @@
+﻿  5.5.cpp
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(8,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(15,20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(18,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(18,42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(21,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(21,46): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\5.5.cpp(23): warning C4715: 'f': not all control paths return a value
+  laba5.5.vcxproj -> C:\Users\marki\Desktop\Yaryna visual studio\laba5.5\Debug\laba5.5.exe
