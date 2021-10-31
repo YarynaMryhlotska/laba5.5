@@ -26,6 +26,7 @@ int main()
 {
     int n;
     int x;
+
     cout << "n = "; cin >> n;
     cout << "a = " << n - 1;
     cout << "\nx = " << f(n) << endl;
@@ -34,5 +35,3 @@ int main()
 
     return 0;
 }
-
-
