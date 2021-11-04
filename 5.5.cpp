@@ -2,25 +2,32 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-double n(int n)
+
+double f(int n)
 {
-    double S = 0.0;
-    n = n - (n - 1.0);
-    return n;
-}
-int f(int n)
-{
-    for (int i = 0; i < 1; i++) {
+    int i;
+    if ( i < 1) 
         if (n == 1)
             return 1.0;
         else
             if (n / 2 * 2 == n)
-                return  2.0 * f(n / 2.0) - 1.0;
+                return  2.0 * f(n / 2) - 1.0;
             else
                 if (n & 1)
-                    return  2.0 * f(n / 2.0) + 1.0;
-    }
+                    return  2.0 * f(n / 2) + 1.0;
 }
+
+int RECCURCIA(int n)
+{
+    n = f(n);
+    if( n == f(n))
+    {
+        cout << "y=" << f(n) << endl;
+      
+    }
+     return n * RECCURCIA(n - 1);
+}
+
 
 int main()
 {
@@ -28,10 +35,10 @@ int main()
     int x;
 
     cout << "n = "; cin >> n;
-    cout << "a = " << n - 1;
-    cout << "\nx = " << f(n) << endl;
-    x = f(n);
-    cout << "y = " << f(x) << endl;
+    cout << "f =" << f(n);
+    cout << "y = " << RECCURCIA(n) << endl;
 
     return 0;
+
+
 }
